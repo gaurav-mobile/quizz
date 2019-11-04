@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+
+    <string name="timer">Time:0:00</string>
+    <string name="time">Time: </string>
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+    <string name="done">DONE!</string>
+    <string name="ok">OK</string>
+    <string name="Result">RESULT</string>
+    <string name="Total_score">Total score: </string>
+
+
+</resources>

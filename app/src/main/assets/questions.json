@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question" : "How many days are there in a year ?",
+      "answer": "365",
+      "choice1": "400",
+      "choice2": "363",
+      "choice3": "365",
+      "choice4": "299"
+    },
+    {
+      "question" : "What is the color of sky ?",
+      "answer": "Blue",
+      "choice1": "Blue",
+      "choice2": "Green",
+      "choice3": "White",
+      "choice4": "Red"
+    },
+    {
+      "question" : "what is the capital of India ?",
+      "answer": "Delhi",
+      "choice1": "Mumbai",
+      "choice2": "Delhi",
+      "choice3": "Bangalore",
+      "choice4": "Kolkata"
+    },
+    {
+      "question" : "How many Planets are there ?",
+      "answer": "9",
+      "choice1": "6",
+      "choice2": "8",
+      "choice3": "10",
+      "choice4": "9"
+    },
+    {
+      "question" : "How many States are there in India ?",
+      "answer": "29",
+      "choice1": "27",
+      "choice2": "29",
+      "choice3": "28",
+      "choice4": "25s"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="quiz"
+            type="com.gaurav.quizz.Result" />
+    </data>
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/resultStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:text="@string/Result"
+        android:textSize="@dimen/sub_title_size"
+        android:textColor="@color/colorBlack"
+         />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="@dimen/score"
+        android:textColor="@color/colorBlack"
+        />
+
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/Total_score"
+        android:textSize="@dimen/sub_title_size"
+        android:textColor="@color/colorBlack"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:onClick="returnMain"
+        android:text="return"
+        android:textSize="@dimen/result_btn_size"
+        android:background="@color/colorRedButton"
+        android:textColor="@color/colorWhite"
+        />
+
+</LinearLayout>
+</layout>
